@@ -51,7 +51,9 @@ class App extends Component {
               key={this.state.cards.length}
               name={Element.name}
               desc={Element.age + ", " + Element.gender}
-              prop={<a href={Element.url} target="_blank" rel="noopener noreferrer">Details</a>}
+              prop={<p className="chirpbody text-center card-body text-secondarye">
+                  <a href={Element.url} target="_blank" rel="noopener noreferrer">Details</a>
+                  </p>}
               
             />
           ]
